@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-h1 {
+.header {
   background-size: contain;
   color: white;
   text-align: center;
