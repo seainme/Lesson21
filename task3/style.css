@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 100%;
 }
 .header {
   background-size: contain;
@@ -29,12 +30,10 @@ body {
   width: 60vw;
   font-size: 1.25em;
   line-height: 1.75em;
- 
 }
 .section__header {
   font-size: 5vmin;
   text-align: center;
-  
 }
 /* p{
   text-align: center;
@@ -45,7 +44,6 @@ body {
 .units.list {
   display: flex;
   margin: auto;
-   
 }
 .css-units {
   color: #8b0000;
@@ -54,31 +52,26 @@ body {
   font-weight: 700;
 }
 .nav-list {
-  list-style-type: none;
- display: inline-block;
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-  padding: 00.5em;
-  
-  
+  padding: 0;
+ 
 }
 .nav-list-item {
-    line-height: 2em;
-     background-color: #808080;
-     margin-bottom: 0.5em;
- 
- 
+  height: 2em;
+  background-color: #808080;
+  margin-bottom: 0.5em;
+  list-style-type: none;
+  line-height: 2em;
+  color: white;
 }
 .nav-list-link {
-  display: block;
   color: white;
+  width: 100%;
+  display:inline-block;
+ padding: 0 0.5em;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   text-decoration: none;
-  
-  
 }
 .footer {
   margin-top: auto;
